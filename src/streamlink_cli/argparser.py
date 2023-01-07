@@ -1078,6 +1078,14 @@ def build_parser():
         """
     )
     transport_ffmpeg.add_argument(
+        "--ffmpeg-dkey",
+        type=str,
+        metavar="DKEY",
+        help="""
+        Set the decryption key
+        """
+    )
+    transport_ffmpeg.add_argument(
         "--ffmpeg-video-transcode",
         metavar="CODEC",
         help="""
