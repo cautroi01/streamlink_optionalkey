@@ -83,6 +83,7 @@ class Streamlink:
             "ffmpeg-ffmpeg": None,
             "ffmpeg-no-validation": False,
             "ffmpeg-fout": None,
+            "ffmpeg-dkey": None,
             "ffmpeg-video-transcode": None,
             "ffmpeg-audio-transcode": None,
             "ffmpeg-copyts": False,
