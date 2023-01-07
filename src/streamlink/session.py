@@ -190,7 +190,9 @@ class Streamlink:
         ffmpeg-audio-transcode   (str) The codec to use if transcoding
                                  audio when muxing with ffmpeg
                                  e.g. ``aac``
-
+        
+        ffmpeg-dkey              (str) Specify decryption key
+        
         ffmpeg-copyts            (bool) When used with ffmpeg, do not shift input timestamps.
 
         ffmpeg-start-at-zero     (bool) When used with ffmpeg and copyts,
